@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.product {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  gap: 21px;
+}
+.product-image {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 14px;
+}
+.product-image-slider {
+  display: flex;
+  gap: 9px;
+}
+/* .product-text {
+  border: 2px solid crimson;
+} */
+.badge {
+  background: #ed4444;
+  color: #ffffff;
+  padding: 5px 20px 6px 5px;
+  display: inline-flex;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.reviews {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 16px;
+}
+.reviews-text {
+  color: #3f474b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+  opacity: 0.3;
+}
+.reviews-text span {
+  color: #3f474b;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+}
+h2 {
+  color: #141b4d;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 106.176%;
+  letter-spacing: -3px;
+}
+
+.customer-say {
+  margin-top: 23px;
+  margin-bottom: 15px;
+  max-width: 438px;
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+  background: #f2f2f6a8;
+  padding: 14px 27px 19px 15px;
+}
+.customer-say p {
+  color: #3f446c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.product-description-text {
+  margin-bottom: 41px;
+}
+.description-text {
+  display: flex;
+  border-bottom: 1px solid #000000;
+}
+.description-text p {
+  color: #141b4d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  opacity: 0.8;
+}
+.price {
+  display: flex;
+  align-items: end;
+  gap: 5px;
+}
+.off-price {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.176%;
+  letter-spacing: -1.4px;
+  text-decoration-line: line-through;
+  opacity: 0.6;
+}
+.price {
+  color: #cf1010;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 106.176%;
+  letter-spacing: -1.9px;
+}
+.cartBtn-and-quantity {
+  margin-top: 27px;
+  display: flex;
+  gap: 5px;
+}
+.cart-btn {
+  background: #1db469;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 20px 74px 21px 90px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+}
+.quantity {
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+}
+.decrement-btn {
+  border: none;
+  outline: none;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.increment-btn {
+  border: none;
+  outline: none;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.card-list {
+  margin-top: 19px;
+  margin-bottom: 21px;
+  display: flex;
+  gap: 10px;
+}
+.policy {
+  display: inline-flex;
+  gap: 13px;
+  flex-direction: column;
+}
+.policy-text {
+  display: flex;
+  align-items: center;
+  color: #7d7d7d;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+}
+.policy-text span {
+  color: #3385ff;
+}
+
+.card-drawer {
+  background: #f4f4f4;
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  z-index: 999px;
+  padding: 40px;
+}
+.display-none {
+  display: none;
+}
+.close-drawer {
+  cursor: pointer;
+  display: flex;
+  justify-content: end;
+}
